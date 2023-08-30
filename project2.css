@@ -1,0 +1,125 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Montserrat:wght@200&family=Phudu:wght@300&family=Playfair+Display:wght@400;500&family=Raleway:wght@100&family=Source+Code+Pro:wght@300&family=Tilt+Prism&display=swap'); */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(235, 231, 108);
+    color: black;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Phudu', cursive;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Tilt Prism', cursive;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    background-image: url(fon-home3.avif);
+    background-size: cover;
+    height: 700px;
+    width: 90%;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    /* flex-wrap: wrap; */
+    gap: 700px;
+
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    
+    gap: 2rem;
+    margin: 20px;
+}
+
+.logo a{
+    display: flex;
+    justify-content: flex-start;
+    padding: 5px;
+    margin-top: 25px;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 30px;
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: 30px;
+    padding: 5px;
+    color: black;
+}
+
+
+/* начало footer */
+
+.footer-contact{
+    padding-left: 50px;
+    padding-top: 100px;
+    background-color: rgb(240, 184, 110);
+    color: white;
+}
+
+.footer-contact h2{
+    font-size: 30px;
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: row;
+    text-align: start;
+    font-size: 20px;
+}
+
+.footer-card{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-card-2{
+    width: 400px;
+}
+
+.footer-ul{
+    padding-left: 20px;
+}
+
+.footer-ul a{
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    list-style-type: none;
+}
+
+.footer-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 5px white solid;
+}
+
+.footer-button a{
+    font-size: 40px;
+    text-decoration: none;
+    color: white;
+    background: transparent;
+    background-color: rgb(240, 184, 110);
+}
+
+.div-table{
+    margin-top: 20px;
+    padding-bottom: 50px;
+}
