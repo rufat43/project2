@@ -32,14 +32,12 @@ nav{
     flex-direction: row;
     text-align: center;
     /* flex-wrap: wrap; */
-    gap: 700px;
-
+    gap: 350px;
 }
 
 .menu{
     display: flex;
     flex-direction: row;
-    
     gap: 2rem;
     margin: 20px;
 }
@@ -60,6 +58,83 @@ nav{
     color: black;
 }
 
+/* 2 часть */
+
+.about{
+    display: flex;
+    flex-direction: row;
+}
+
+.about-card-1{
+    width: 50%;
+    background-color: rgb(240, 184, 110);
+    margin-top: -50px;
+    margin-bottom: 80px;
+    padding-top: 50px;
+}
+
+.about-card-2{
+    white-space: nowrap;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    width: 50%;
+    margin: 30px;
+}
+
+.about-card-1 h1{
+    margin-bottom: 10px;
+}
+
+.kolona{
+    white-space: normal;
+    display: inline-block;
+}
+
+
+/* 3 часть */
+
+.emotions{
+    display: flex;
+    flex-direction: row;
+}
+
+.emotions-card-1{
+    width: 50%;
+    margin-left: 50px;
+}
+
+.emotions-card-2{
+    width: 50%;
+    margin: 30px;
+}
+
+.emotions-card-1 h1{
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+.emotions-card-1 p{
+    width: 300px;
+}
+
+.emotions-card-2 img{
+    width: 820px;
+}
+
+/* 4 часть */
+
+.adventure{
+background-image: url(fon-4.jpeg);
+background-size: cover;
+background-repeat: no-repeat;
+color: white;
+margin-top: -80px;
+padding-top: 300px;
+padding-left: 1000px;
+padding-bottom: 50px;
+padding-right: 50px;
+}
 
 /* начало footer */
 
@@ -122,4 +197,8 @@ li{
 .div-table{
     margin-top: 20px;
     padding-bottom: 50px;
+}
+
+.div-table td{
+    padding-right: 10px;
 }
